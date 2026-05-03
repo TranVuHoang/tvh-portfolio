@@ -1,2 +1,28 @@
+/* google font: */
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@400;600;700&display=swap");
+
 @import "./reset.css";
 @import "./theme.css";
+@import "./sections/header.css";
+@import "./sections/about_me.css";
+@import "./sections/skills.css";
+@import "./sections/projects.css";
+@import "./sections/footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+  letter-spacing: var(--p-letter-spacing);
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1536px;
+  padding: 0 2rem;
+}
