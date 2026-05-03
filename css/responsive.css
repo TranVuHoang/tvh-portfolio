@@ -47,6 +47,25 @@
     align-items: center;
   }
 }
+
+/* -----------------------------------
+ Small tablet - landscape mode
+ ----------------------------------- */
+@media (max-width: 789px) {
+  .container {
+    max-width: 640px;
+  }
+
+  /* About me */
+  .aboutme__section {
+    margin: 80px auto;
+
+    & img {
+      display: none;
+    }
+  }
+}
+
 /* -----------------------------------
  Mobile
  ----------------------------------- */
@@ -66,5 +85,25 @@
   }
   .header__badge-container {
     flex-direction: column;
+  }
+
+  /* About me */
+  .aboutme__container {
+    padding: 1rem;
+    width: 90%;
+    border-radius: 2rem;
+  }
+
+  .aboutme__section {
+    margin: 10px auto;
+  }
+
+  .aboutme__title {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .aboutme__content-container {
+    border-radius: 2rem;
   }
 }
