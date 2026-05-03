@@ -1,0 +1,75 @@
+.aboutme__section {
+  margin: 140px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1660px;
+}
+
+.aboutme__container {
+  width: 70%;
+  padding: 3rem;
+  background: hsla(var(--p-600-code), 0.1);
+  border-radius: 3rem;
+}
+
+.aboutme__content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 3rem;
+  padding: 3rem 0;
+
+  & h1 {
+    color: var(--p-600);
+  }
+
+  & p {
+    color: var(--n-600);
+    padding: 0 1rem;
+  }
+}
+
+.aboutme__cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 90%;
+
+  & a {
+    padding: 12px;
+    width: 240px;
+    max-width: 80%;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+}
+
+.aboutme__cta-download {
+  color: #fff;
+  background: var(--p-600);
+  box-shadow: 0 0 10px #8d8989;
+
+  &:hover {
+    background: var(--p-900);
+    box-shadow: 0 0 10px #777777;
+  }
+}
+
+.aboutme__cta-link {
+  border: 1px solid var(--p-600);
+  color: var(--p-600);
+  background: transparent;
+
+  & :hover {
+    box-shadow: 0 4px 10px #777777;
+  }
+}
